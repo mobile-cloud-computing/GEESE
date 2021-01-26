@@ -9,7 +9,7 @@ GEESE is a novel UAV based system that enables the dynamic deployment of an edge
 
 * Computing capacity and energy consumption of cloudlets
 We analyze the computational capacity to handle the task consists of detecting prime numbers within a list of available numbers.
-Prime number detection [Android Web server](https://github.com/mobile-cloud-computing/GEESE/blob/main/AndServer_With_Battery_Log.zip/ "Android Web server") and [Java client](https://github.com/mobile-cloud-computing/GEESE/blob/main/PrimeNumberJavaClient.zip/ "Java Client")
+Prime number detection [Android Web server](https://github.com/mobile-cloud-computing/GEESE/blob/main/AndServer_With_Battery_Log.zip/ "Android Web server") and the [Java client](https://github.com/mobile-cloud-computing/GEESE/blob/main/PrimeNumberJavaClient.zip/ "Java Client")
 
 ### GEESE design and development ###
 
