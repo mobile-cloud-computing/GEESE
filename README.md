@@ -15,3 +15,4 @@ Prime number detection [Android Web server](https://github.com/mobile-cloud-comp
 
 GEESE delivers cloudlets on demand to any environment to provide edge computing services to end-applications. 
 **Figure 1:** A large group of users looking for computation support on the move, a) Using cellular network to reach remote cloud resources, b) Using Wi-Fi/Bluetooth to access constrained edge server in proximity, c) Using the cloudlet support provided by UAVs in proximity.
+![Figure 1:](https://github.com/mobile-cloud-computing/GEESE/blob/main/Geese1.PNG)
