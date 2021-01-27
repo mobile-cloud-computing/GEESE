@@ -19,8 +19,8 @@ GEESE delivers cloudlets on demand to any environment to provide edge computing 
 
 ### Collaborative processing ###
 We implemented a proof-of-concept prototype that follows a master/worker topology. A worker is an idle device, and the master is an initiator device that triggers the execution.\
-Master Android App () \
-Workers Android App () with the pre-trained model and the label file\
+[Master Android App](https://github.com/mobile-cloud-computing/GEESE/blob/main/ImageRecgMaster.zip/ "Master Android App") \
+[Worker Android App](https://github.com/mobile-cloud-computing/GEESE/blob/main/ImageRecgWorker.zip/ "Worker Android App") including the pre-trained model and the label file\
 
 
 The master is in charge of initiating the task and divide it into jobs based on the number of available devices. The master then sends each job to the workers in a round-robin fashion. Jobs are independent of each other. Thus, the success of the application is measured by the rate of completed jobs. Each worker then processes the job and promptly returns the task to the master once the task is finished.
