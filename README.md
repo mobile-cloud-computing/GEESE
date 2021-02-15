@@ -34,7 +34,7 @@ During the experiment, the master node also works as a Wi-Fi hotspot. Workers ar
 This tool is built for conducting experiments to validate our research solutions. If you are using the tool for your research, please do not forget to cite. Thanks!
 * Liyanage M, Dar F, Sharma R, Flores H. GEESE: Edge computing enabled by UAVs. Pervasive and Mobile Computing. 2021 Feb 4:101340.
 
-#BibTex#
+#### BibTex ####
 @article{liyanage2021geese,
   title={GEESE: Edge computing enabled by UAVs},
   author={Liyanage, Mohan and Dar, Farooq and Sharma, Rajesh and Flores, Huber},
