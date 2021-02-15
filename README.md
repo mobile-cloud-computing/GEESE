@@ -27,9 +27,10 @@ We rely on a deep learning implementation that uses [TensorFlow](https://www.ten
 
 [Master Android App](https://github.com/mobile-cloud-computing/GEESE/blob/main/ImageRecgMaster.zip/ "Master Android App") \
 [Worker Android App](https://github.com/mobile-cloud-computing/GEESE/blob/main/ImageRecgWorker.zip/ "Worker Android App") including the pre-trained model and the label file
+During the experiment, the master node also works as a Wi-Fi hotspot. Workers are connected to the master using Wi-Fi. The workers' application must be executed first, and then the master application. On the master application, there is a button that should be pressed to see the connected workers' IP addresses, and then the master can start sending images to the workers. 
+
 
 ### How to cite ###
 This tool is built for conducting experiments to validate our research solutions. If you are using the tool for your research, please do not forget to cite. Thanks!
-During the experiment, the master node also works as a Wi-Fi hotspot. Workers are connected to the master using Wi-Fi. The workers' application must be executed first, and then the master application. On the master application, there is a button that should be pressed to see the connected workers' IP addresses, and then the master can start sending images to the workers. 
 
 
