@@ -18,7 +18,7 @@ GEESE delivers cloudlets on demand to any environment to provide edge computing 
 ![Figure 1:](https://github.com/mobile-cloud-computing/GEESE/blob/main/Geese1.PNG)
 
 ### Collaborative processing ###
-We implemented a proof-of-concept prototype that follows a master/worker topology. A worker is an idle device, and the master is an initiator device that triggers the execution.\
+We implemented a proof-of-concept prototype that follows a master/worker topology. A worker is an idle device, and the master is an initiator device that triggers the execution.
 
 The master is in charge of initiating the task and divide it into jobs based on the number of available devices. The master then sends each job to the workers in a round-robin fashion. Jobs are independent of each other. Thus, the success of the application is measured by the rate of completed jobs. Each worker then processes the job and promptly returns the task to the master once the task is finished.
 The prototype application is developed in Android version 5.0.1 and implements a Convolutional Neural Network (CNN) model to recognize objects within images.
@@ -35,11 +35,11 @@ This tool is built for conducting experiments to validate our research solutions
 * Liyanage M, Dar F, Sharma R, Flores H. GEESE: Edge computing enabled by UAVs. Pervasive and Mobile Computing. 2021 Feb 4:101340.
 
 #### BibTex ####
-'@article{liyanage2021geese,
-  title={GEESE: Edge computing enabled by UAVs},
-  author={Liyanage, Mohan and Dar, Farooq and Sharma, Rajesh and Flores, Huber},
-  journal={Pervasive and Mobile Computing},
-  pages={101340},
+@article{liyanage2021geese,\
+  title={GEESE: Edge computing enabled by UAVs},\
+  author={Liyanage, Mohan and Dar, Farooq and Sharma, Rajesh and Flores, Huber},\
+  journal={Pervasive and Mobile Computing},\
+  pages={101340},\
   year={2021},
-  publisher={Elsevier}
-}'
+  publisher={Elsevier}\
+}
