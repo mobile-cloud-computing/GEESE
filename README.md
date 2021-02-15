@@ -35,13 +35,11 @@ This tool is built for conducting experiments to validate our research solutions
 * Liyanage M, Dar F, Sharma R, Flores H. GEESE: Edge computing enabled by UAVs. Pervasive and Mobile Computing. 2021 Feb 4:101340.
 
 #### BibTex ####
-code(
-@article{liyanage2021geese,
+'@article{liyanage2021geese,
   title={GEESE: Edge computing enabled by UAVs},
   author={Liyanage, Mohan and Dar, Farooq and Sharma, Rajesh and Flores, Huber},
   journal={Pervasive and Mobile Computing},
   pages={101340},
   year={2021},
   publisher={Elsevier}
-}
-)
+}'
