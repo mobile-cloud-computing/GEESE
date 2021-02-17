@@ -42,5 +42,6 @@ This tool is built for conducting experiments to validate our research solutions
   volume = {72},\
   pages={101340},\
   year={2021},\
+  doi = {https://doi.org/10.1016/j.pmcj.2021.101340},\
   publisher={Elsevier}\
 }
