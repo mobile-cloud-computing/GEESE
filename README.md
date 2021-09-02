@@ -25,7 +25,7 @@ The prototype application is developed in Android version 5.0.1 and implements a
 We consider a set of 50 images in a resolution of 224x224, which are collected from the [ImageNet](http://image-net.org/ " ImageNet")
 We rely on a deep learning implementation that uses [TensorFlow](https://www.tensorflow.org/lite/ "TensorFlow") with a pre-trained and quantized [mobilenet_v1_1.0_224](https://www.tensorflow.org/lite/guide/hosted_models/ "mobilenet_v1_1.0_224") model for recognizing objects in the images.
 
-[Master Android App](https://github.com/mobile-cloud-computing/GEESE/blob/main/ImageRecgMaster.zip/ "Master Android App") \
+[Master Android App](https://github.com/mobile-cloud-computing/GEESE/blob/main/ImageMasterNode.zip/ "Master Android App") \
 [Worker Android App](https://github.com/mobile-cloud-computing/GEESE/blob/main/ImageRecgWorker.zip/ "Worker Android App") including the pre-trained model and the label file\
 During the experiment, the master node also works as a Wi-Fi hotspot. Workers are connected to the master using Wi-Fi. The workers' application must be executed first, and then the master application. On the master application, there is a button that should be pressed to see the connected workers' IP addresses, and then the master can start sending images to the workers. 
 
